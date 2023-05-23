@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+
+}
+
+.containerBarraTopo{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+.logoLachonete{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.containerTudo{
+    border: 1px solid yellow;
+    width: 100%;
+    height: 50vw;
+    display: flex;
+}
+
+
+#containerCardapio{
+    width: 50vw;
+    height: 50vw;
+    border: 1px solid red;
+    background-color: antiquewhite;
+
+}
+
+
+#containerPedidoCliente{
+    width: 50vw;
+    height: 50vw;
+    border: 1px solid blue;
+    background-color: blueviolet;
+}
+
+.enunciado{
+    margin-top: 10px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.spnEnunciado{
+    font-size: 20px;
+}
+#containerLista{
+    width: 90%;
+    height: 40vw;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.47);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.3px);
+-webkit-backdrop-filter: blur(10.3px);
+border: 1px solid rgba(255, 255, 255, 0.49);
+
+    margin-left: 2vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos{
+    border: 1px solid black;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    height: 20px;
+}
+
+.Lanches{
+    font-size: 20px;
+}
+
+.separacaoDosContainer{
+    overflow-y: scroll;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.containerP1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.containerLanches{
+    border: 1px solid black;
+    width: 30vw;
+}
+.containerCodigo{
+    border: 1px solid black;
+    width: 30vw;
+}
+.containerPreco{
+    border: 1px solid black;
+    width: 30vw;
+}
+.containerAdicionar{
+    border: 1px solid black;
+    width: 30vw;
+}
+
+
+
+.descricaoCardapio{
+    font-size: 20px;    
+    margin-top: 20px;
+}
+
+#descricaoCardapio{
+    font-size: 20px;    
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+/* pedidos cliente */
+
+
+
+#containerPedidoCliente{
+ display: flex;   
+}
+
+#Pedidos{
+
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    border: 2px solid #000;
+    margin-left: 25px;
+
+    font-size: 20px;
+    color: #000;
+
+    text-align: left;
+}
+
+#total{
+    width: 25%;
+    height: 10%;
+    background-color: white;
+    border: 2px solid #000;
+    margin-left: 25px;
+
+    font-size: 20px;
+    color: #000;
+
+    text-align: left;
+}
+
+#AdiconarAoCardapio{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 20vw;
+    height: 30px;
+
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 21px 17px 20px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 21px 17px 20px -5px rgba(0,0,0,1);
+    box-shadow: 21px 17px 20px -5px rgba(0,0,0,1);
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<header>
+    <div class="containerBarraTopo">
+        <img class="logoLachonete"src="https://santanacantinhocriativo.files.wordpress.com/2017/05/lanchonete-perfil.png" alt="">
+    </div>
+
+</header>
+<body>
+<div class="containerTudo">
+
+    <div id="containerCardapio">
+
+        <div class="enunciado">
+           <span class="spnEnunciado">
+               Cardápio Lanchonete Perfil
+           </span>
+
+        </div> 
+        <div id="containerLista">
+            <div class="titulos">
+                <span class="nomeLanche Lanches">
+                    Lanches
+                </span>
+                <span class="codigoLache Lanches">
+                    Código
+                </span>
+                <span class="precoLanche Lanches">
+                    Preço 
+                </span>
+                <span class="adicionar Lanches">
+                    Adicionar
+                </span>
+            </div>
+
+            <div class="separacaoDosContainer">
+
+
+                <div class="containerLanches containerP1">
+                    <h1 class="descricaoCardapio CQ" >Cachorro Quente </h1>
+                    <h1 class="descricaoCardapio BS">Bauru Simples </h1>
+                    <h1 class="descricaoCardapio BCO">Bauru com ovo</h1>
+                    <h1 class="descricaoCardapio HAMB">Hambúrguer</h1>
+                    <h1 class="descricaoCardapio CHEES">Cheeseburguer</h1>
+                    <h1 class="descricaoCardapio REF">Refrigerante </h1>
+
+                </div>
+                <div class="containerCodigo containerP1">
+                    <h1 class="descricaoCardapio CQ">100</h1>
+                    <h1 class="descricaoCardapio BS">101</h1>
+                    <h1 class="descricaoCardapio BCO">102</h1>
+                    <h1 class="descricaoCardapio HAMB">103</h1>
+                    <h1 class="descricaoCardapio CHEES">104</h1>
+                    <h1 class="descricaoCardapio REF">105</h1>
+                </div>
+                <div class="containerPreco containerP1">
+                    <h1 class="descricaoCardapio CQ">R$ 1,20</h1>
+                    <h1 class="descricaoCardapio BS">R$ 1,30</h1>
+                    <h1 class="descricaoCardapio BCO">R$ 1,50</h1>
+                    <h1 class="descricaoCardapio HAMB">R$ 1,20</h1>
+                    <h1 class="descricaoCardapio CHEES">R$ 1,30</h1>
+                    <h1 class="descricaoCardapio REF">R$ 1,00</h1>
+                </div>
+
+                <div class="containerAdicionar containerP1">
+                    <button type="button" id="descricaoCardapio" onclick="adicionarPedido('Cachorro Quente')" >Adicionar</button>
+                    <button type="button" id="descricaoCardapio" onclick="adicionarPedido('Bauru Simples')" >Adicionar</button>
+                    <button type="button" id="descricaoCardapio" onclick="adicionarPedido('Bauru com ovo')" >Adicionar</button>
+                    <button type="button" id="descricaoCardapio" onclick="adicionarPedido('Hambúrguer')" >Adicionar</button>
+                    <button type="button" id="descricaoCardapio" onclick="adicionarPedido('Cheeseburguer')" >Adicionar</button>
+                    <button type="button" id="descricaoCardapio" onclick="adicionarPedido('Refrigerante')" >Adicionar</button>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <button id="AdiconarAoCardapio" onclick="adicionarCardapio('adicionarCardapio')">Adiconar Ao Cardapio</button>
+
+    </div>
+    <div id="containerPedidoCliente">
+
+        <div id="containerCliente">
+
+
+            <div class="enunciado">
+                <span class="spnEnunciado">
+                    Pedidos Cliente
+                </span>
+
+            </div> 
+
+
+            <div id="containerLista">
+
+                <div class="titulos">
+                    <span class="nomeLanche Lanches">
+                        Lanches
+                    </span>
+                    <span class="codigoLache Lanches">
+                        Código
+                    </span>
+                    <span class="precoLanche Lanches">
+                        Preço R$
+                    </span>
+                    <span class="adicionar Lanches">
+                        Adicionar
+                    </span>
+                </div>
+
+                <p id="Pedidos"></p>
+                <p id="total">R$<br></p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
